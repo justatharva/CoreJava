@@ -1,4 +1,4 @@
-package Operators;
+package com.operators;
 
 public class Relational_Operators {
 	public static void main(String[] args) {
