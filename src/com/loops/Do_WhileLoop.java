@@ -1,5 +1,5 @@
 package com.loops;
-
+//Do While Loops
 public class Do_WhileLoop {
 	public static void main(String[] args) {
 		int a = 1;
