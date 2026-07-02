@@ -29,6 +29,7 @@ public class Runtime_Exceptions {
 			System.out.println("Thank You.......");
 		}
 		System.out.println("Rest OF THE CODE");
+		sc.close();
 	}
 }
 //| InputMismatchException | NullPointerException | ArrayIndexOutOfBoundException 

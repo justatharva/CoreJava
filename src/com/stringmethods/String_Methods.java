@@ -45,7 +45,7 @@ public class String_Methods {
 		for(int i=name.length();i>=0;i--) {
 			System.out.print(arr[i]);
 		}
-		
+		sc.close();
 		
 //		String s5 = "*=*=*=*=*=*==***===*";
 //		String arr[] = s5.split("*");
