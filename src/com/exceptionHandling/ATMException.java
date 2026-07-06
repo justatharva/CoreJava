@@ -3,6 +3,7 @@ package com.exceptionHandling;
 import java.util.Scanner;
 
 public class ATMException {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int balance = 11000;
@@ -25,5 +26,6 @@ public class ATMException {
 		catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
+		sc.close();
 	}
 }
